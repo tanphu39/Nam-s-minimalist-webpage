@@ -1,0 +1,128 @@
+body {
+  margin: 4rem 5rem 4rem 5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  max-width: 75ch;
+  font-size: 1.3rem;
+}
+
+hr {
+  width: 90%;
+}
+
+h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.nav {
+  margin: 0 0 2rem 0;
+}
+
+.avatar {
+  margin-right: 1rem;
+}
+
+.img-head {
+  height: 30rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 0 83%;
+     object-position: 0 83%;
+}
+
+.content {
+  margin: 4rem 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.text {
+  margin: -1rem 0 0 10rem;
+}
+
+.info {
+  width: 18rem;
+  height: 18rem;
+  background: #ededed;
+}
+
+.up-info {
+  margin: 1rem 0 3rem 1rem;
+}
+
+.btn-follow {
+  background-color: black;
+  color: white;
+  padding: 0.4rem 3rem 0.4rem 3rem;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: 12px 12px 12px 12px;
+}
+
+.btn-homepage {
+  padding: 1rem;
+  background: url(./images/Logo.png) no-repeat;
+  background-size: contain;
+}
+
+.btn-email {
+  padding: 1.2rem;
+  background: url(./images/Email.png) no-repeat;
+  background-size: contain;
+  margin-left: 4rem;
+}
+
+.low-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 4.7rem 1rem 0 1rem;
+}
+
+.btn-like {
+  background: url(./images/Like.png) no-repeat;
+  background-size: contain;
+}
+
+.btn-message {
+  background: url(./images/Message.png) no-repeat;
+  background-size: contain;
+}
+
+.btn-bookmark {
+  background: url(./images/Bookmark.png) no-repeat;
+  background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
